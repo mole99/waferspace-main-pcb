@@ -2388,7 +2388,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_ARGB"
+		(symbol "Device:LED_RAGB"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2408,7 +2408,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_ARGB"
+			(property "Value" "LED_RAGB"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2440,7 +2440,7 @@
 					)
 				)
 			)
-			(property "Description" "RGB LED, anode/red/green/blue"
+			(property "Description" "RGB LED, red/anode/green/blue"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2473,7 +2473,7 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_0"
+			(symbol "LED_RAGB_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -2499,7 +2499,7 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_1"
+			(symbol "LED_RAGB_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -2831,11 +2831,11 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_1_1"
+			(symbol "LED_RAGB_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "A"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2851,9 +2851,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "RK"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10745,7 +10745,7 @@
 		(uuid "04e59d8e-51ea-4a66-b013-a0164ddf1b87")
 	)
 	(label "fpga_pad[15]"
-		(at 237.49 218.44 180)
+		(at 237.49 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10945,7 +10945,7 @@
 		(uuid "2955a715-dace-4e91-9c52-473ff3f473c5")
 	)
 	(label "fpga_pad[19]"
-		(at 275.59 208.28 180)
+		(at 275.59 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11445,7 +11445,7 @@
 		(uuid "9192e23f-b7dd-4931-8e47-3ef6656723bf")
 	)
 	(label "fpga_pad[18]"
-		(at 275.59 218.44 180)
+		(at 275.59 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11465,7 +11465,7 @@
 		(uuid "9368ca53-e54a-408b-9018-f9047436c28e")
 	)
 	(label "fpga_pad[14]"
-		(at 237.49 213.36 180)
+		(at 237.49 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11545,7 +11545,7 @@
 		(uuid "9de3c83c-5310-429d-9fa1-d2c78e623ef2")
 	)
 	(label "fpga_pad[17]"
-		(at 275.59 213.36 180)
+		(at 275.59 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11785,7 +11785,7 @@
 		(uuid "d0645f83-5429-4518-9120-a863048b32d9")
 	)
 	(label "fpga_pad[16]"
-		(at 237.49 208.28 180)
+		(at 237.49 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14679,7 +14679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 218.44 90)
+		(at 240.03 208.28 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14690,7 +14690,7 @@
 		(dnp no)
 		(uuid "17608ab7-5d15-437b-bee8-d58778a5a275")
 		(property "Reference" "R30"
-			(at 241.935 220.345 90)
+			(at 241.935 210.185 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14701,7 +14701,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 241.935 216.535 90)
+			(at 241.935 206.375 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14712,7 +14712,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14723,7 +14723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14734,7 +14734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14745,7 +14745,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071K2L"
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +14756,7 @@
 			)
 		)
 		(property "Characteristics" "49.9 0402"
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,7 +14767,7 @@
 			)
 		)
 		(property "LCSC" "C25120"
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,7 +14778,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,7 +14789,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 218.44 0)
+			(at 240.03 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,7 +14800,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 240.03 218.44 90)
+			(at 240.03 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15141,7 +15141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 208.28 90)
+		(at 240.03 213.36 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15152,7 +15152,7 @@
 		(dnp no)
 		(uuid "21460f63-400d-4d7e-a8dc-97a87e498c0c")
 		(property "Reference" "R29"
-			(at 241.935 210.185 90)
+			(at 241.935 215.265 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15163,7 +15163,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 241.935 206.375 90)
+			(at 241.935 211.455 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15174,7 +15174,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +15196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15207,7 +15207,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071K2L"
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15218,7 +15218,7 @@
 			)
 		)
 		(property "Characteristics" "49.9 0402"
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15229,7 +15229,7 @@
 			)
 		)
 		(property "LCSC" "C25120"
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15240,7 +15240,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,7 +15251,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 208.28 0)
+			(at 240.03 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15262,7 +15262,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 240.03 208.28 90)
+			(at 240.03 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15288,7 +15288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "Device:LED_RAGB")
 		(at 287.02 213.36 0)
 		(unit 1)
 		(body_style 1)
@@ -15341,7 +15341,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "RGB LED, red/anode/green/blue"
 			(at 287.02 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -15475,7 +15475,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 278.13 213.36 90)
+		(at 278.13 218.44 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15486,7 +15486,7 @@
 		(dnp no)
 		(uuid "26dc82da-bc5f-4f71-a1bd-3132432be61e")
 		(property "Reference" "R26"
-			(at 280.035 215.265 90)
+			(at 280.035 220.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15497,7 +15497,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 280.035 211.455 90)
+			(at 280.035 216.535 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15508,7 +15508,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15519,7 +15519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15530,7 +15530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15541,7 +15541,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07510RL"
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +15552,7 @@
 			)
 		)
 		(property "Characteristics" "120R 0402"
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,7 +15563,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,7 +15574,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15585,7 +15585,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 278.13 213.36 0)
+			(at 278.13 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15596,7 +15596,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 278.13 213.36 90)
+			(at 278.13 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20033,7 +20033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 278.13 218.44 90)
+		(at 278.13 208.28 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -20044,7 +20044,7 @@
 		(dnp no)
 		(uuid "5d36dd46-10c0-4125-81fb-b8a448a6e4e0")
 		(property "Reference" "R27"
-			(at 280.035 220.345 90)
+			(at 280.035 210.185 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20055,7 +20055,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 280.035 216.535 90)
+			(at 280.035 206.375 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20066,7 +20066,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20077,7 +20077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20088,7 +20088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20099,7 +20099,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071K2L"
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20110,7 +20110,7 @@
 			)
 		)
 		(property "Characteristics" "49.9 0402"
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20121,7 +20121,7 @@
 			)
 		)
 		(property "LCSC" "C25120"
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20132,7 +20132,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20143,7 +20143,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 278.13 218.44 0)
+			(at 278.13 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20154,7 +20154,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 278.13 218.44 90)
+			(at 278.13 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25154,7 +25154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "Device:LED_RAGB")
 		(at 248.92 213.36 0)
 		(unit 1)
 		(body_style 1)
@@ -25207,7 +25207,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" "RGB LED, red/anode/green/blue"
 			(at 248.92 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -27134,7 +27134,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 278.13 208.28 90)
+		(at 278.13 213.36 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -27145,7 +27145,7 @@
 		(dnp no)
 		(uuid "b41c386d-9658-4aaf-aacc-3d4771a051b1")
 		(property "Reference" "R25"
-			(at 280.035 210.185 90)
+			(at 280.035 215.265 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27156,7 +27156,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 280.035 206.375 90)
+			(at 280.035 211.455 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27167,7 +27167,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27178,7 +27178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27189,7 +27189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27200,7 +27200,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071K2L"
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27211,7 +27211,7 @@
 			)
 		)
 		(property "Characteristics" "49.9 0402"
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27222,7 +27222,7 @@
 			)
 		)
 		(property "LCSC" "C25120"
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27233,7 +27233,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27244,7 +27244,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 278.13 208.28 0)
+			(at 278.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27255,7 +27255,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 278.13 208.28 90)
+			(at 278.13 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33624,7 +33624,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 213.36 90)
+		(at 240.03 218.44 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -33635,7 +33635,7 @@
 		(dnp no)
 		(uuid "fa8d3fa0-6e3d-4455-bd7f-2c657e863516")
 		(property "Reference" "R28"
-			(at 241.935 215.265 90)
+			(at 241.935 220.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33646,7 +33646,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 241.935 211.455 90)
+			(at 241.935 216.535 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33657,7 +33657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33668,7 +33668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33679,7 +33679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33690,7 +33690,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07510RL"
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33701,7 +33701,7 @@
 			)
 		)
 		(property "Characteristics" "120R 0402"
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33712,7 +33712,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33723,7 +33723,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33734,7 +33734,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 213.36 0)
+			(at 240.03 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33745,7 +33745,7 @@
 			)
 		)
 		(property "DNC" ""
-			(at 240.03 213.36 90)
+			(at 240.03 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
