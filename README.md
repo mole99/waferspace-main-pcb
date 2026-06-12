@@ -10,7 +10,7 @@ It is based on the [TinyTapeout Demo Board](https://github.com/TinyTapeout/tt-de
 
 The PCB was designed with KiCad version 10.0.
 
-Check out the project in your browser using KiCanvas: [Greyhound Main PCB](https://kicanvas.org/?github=https://github.com/mole99/waferspace-main-pcb/blob/main/waferspace-main-pcb.kicad_pro)
+Check out the project in your browser using KiCanvas: [wafer.space Main PCB](https://kicanvas.org/?github=https://github.com/mole99/waferspace-main-pcb/blob/main/waferspace-main-pcb.kicad_pro)
 
 # License
 
